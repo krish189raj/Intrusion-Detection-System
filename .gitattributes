@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Python
+*.py linguist-language=Python
+
+# Jupyter Notebooks
+*.ipynb linguist-language=Jupyter Notebook
+
+# VS Code settings (treat as config or ignore)
+.vscode/* linguist-documentation=true
+
+# PowerPoint files (treat as binary or documentation)
+*.pptx linguist-documentation=true
+*.ppt linguist-documentation=true
+
+# Pandas and NumPy are libraries, not languages – inferred through Python code
+# But you can ensure any requirements or scripts mentioning them are treated as Python
+requirements.txt linguist-language=Python
+*.py linguist-language=Python
