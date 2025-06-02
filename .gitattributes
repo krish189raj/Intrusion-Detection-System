@@ -14,3 +14,4 @@
 # Pandas and NumPy are libraries, not languages – inferred through Python code
 # But you can ensure any requirements or scripts mentioning them are treated as Python
 requirements.txt linguist-language=Python
+*.sh linguist-language=Shell
