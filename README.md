@@ -1,4 +1,4 @@
-# Intrusion Detection System
- An Intrusion Detection System (IDS) is a cybersecurity mechanism that monitors and analyzes network or system activities for malicious behavior or policy violations. The primary goal of an IDS is to detect unauthorized access, misuse, or anomalies in real-time and alert the administrators.
- IDS does not take action to stop the attack—it detects and report
- 
+This repository contains code, preprocessing steps, and machine learning models built using the Intrusion Detection System Dataset,
+1) Feature selection using the genetic algorithm
+2) Checked results for unbalanced , balancing using SMOTE-ENN,balancing using ADASYN
+3) Achieved a peak accuracy of around 96% using Random Forest
